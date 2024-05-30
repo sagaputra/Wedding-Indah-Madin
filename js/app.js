@@ -105,14 +105,14 @@ const util = (() => {
         btn.innerHTML = msg;
         btn.disabled = true;
         let dataBank = btn.getAttribute("data-nomer");
-        if (btn.getAttribute("data-bank") === `BNI: `) {
+        if (btn.getAttribute("data-bank") === `BNI MADIN: `) {
           document.querySelector(`.js-generate-gifthtml`).innerHTML = `<img
                             class="img-fluid"
                             style="height: 15px"
                             src="https://upload.wikimedia.org/wikipedia/id/thumb/5/55/BNI_logo.svg/640px-BNI_logo.svg.png"
                             alt=""
                           /><p>${dataBank}</p><p>Ahmad Nur Udin</p>`;
-        } else if (btn.getAttribute("data-bank") === `BRI: `) {
+        } else if (btn.getAttribute("data-bank") === `BNI INDAH: `) {
           document.querySelector(`.js-generate-gifthtml`).innerHTML = `<img
                             class="img-fluid"
                             style="height: 15px"
