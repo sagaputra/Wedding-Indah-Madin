@@ -105,7 +105,7 @@ const util = (() => {
         btn.innerHTML = msg;
         btn.disabled = true;
         let dataBank = btn.getAttribute("data-nomer");
-        if (btn.getAttribute("data-bank") === `BNI MADIN: `) {
+        if (btn.getAttribute("data-bank") === `BNI Ahmad: `) {
           document.querySelector(`.js-generate-gifthtml`).innerHTML = `<img
                             class="img-fluid"
                             style="height: 15px"
@@ -1318,144 +1318,144 @@ const galeriHTML = `<!--Galeri-->
                 </button>
               </div>`;
 // const kisahHTML = `<!--Kisah Cinta  -->
-//               <div
-//                 id="carouselExampleCaptions"
-//                 class="carousel slide"
-//                 data-aos="fade-up"
-//                 data-aos-duration="1500"
-//                 data-bs-ride="carousel"
-//               >
-//                 <div class="carousel-indicators mb-0 mt5">
-//                   <button
-//                     type="button"
-//                     data-bs-target="#carouselExampleCaptions"
-//                     data-bs-slide-to="0"
-//                     class="active"
-//                     aria-current="true"
-//                     aria-label="Slide 1"
-//                   ></button>
-//                   <button
-//                     type="button"
-//                     data-bs-target="#carouselExampleCaptions"
-//                     data-bs-slide-to="1"
-//                     aria-label="Slide 2"
-//                   ></button>
-//                   <button
-//                     type="button"
-//                     data-bs-target="#carouselExampleCaptions"
-//                     data-bs-slide-to="2"
-//                     aria-label="Slide 3"
-//                   ></button>
-//                   <button
-//                     type="button"
-//                     data-bs-target="#carouselExampleCaptions"
-//                     data-bs-slide-to="3"
-//                     aria-label="Slide 4"
-//                   ></button>
-//                   <button
-//                     type="button"
-//                     data-bs-target="#carouselExampleCaptions"
-//                     data-bs-slide-to="4"
-//                     aria-label="Slide 5"
-//                   ></button>
-//                 </div>
-//                 <div class="carousel-inner rounded-4">
-//                   <div class="carousel-item active">
-//                     <img
-//                       src="./assets/images/Galeri/BPP_5084.webp"
-//                       class="d-block w-100"
-//                       alt="..."
-//                       onclick="util.modal(this)"
-//                     />
-//                     <div class=" d-md-block">
-//                       <h5>2014</h5>
-//                       <p>
-//                         Kami pertama kali dipertemukan di SMA dan memulai kisah kami disana.
-//                       </p>
-//                     </div>
-//                   </div>
-//                   <div class="carousel-item">
-//                     <img
-//                       src="./assets/images/Galeri/BPP_5077.webp"
-//                       class="d-block w-100"
-//                       alt="..."
-//                       onclick="util.modal(this)"
-//                     />
-//                     <div class=" d-md-block">
-//                       <h5>2014-2016</h5>
-//                       <p>
-//                         Pada tanggal 16 Juni 2014 Kami berkomitmen dan menjalani masa putih abu abu bersama dengan suka dan duka yang menyertai.
-//                       </p>
-//                     </div>
-//                   </div>
-//                   <div class="carousel-item">
-//                     <img
-//                       src="./assets/images/Galeri/BPP_5033.webp"
-//                       class="d-block w-100"
-//                       alt="..."
-//                       onclick="util.modal(this)"
-//                     />
-//                     <div class=" d-md-block">
-//                       <h5>2016-2021</h5>
-//                       <p>
-//                         Kami menjalani studi diperguruan tinggi yang sama, banyak kenangan indah dan pelajaran yang dapat kami petik untuk memperkuat komitmen kami
-//                       </p>
-//                     </div>
-//                   </div>
-//                   <div class="carousel-item">
-//                     <img
-//                       src="./assets/images/Galeri/BPP_5031.webp"
-//                       class="d-block w-100"
-//                       alt="..."
-//                       onclick="util.modal(this)"
-//                     />
-//                     <div class=" d-md-block">
-//                       <h5>2021-2023</h5>
-//                       <p>
-//                         Setelah selesai menjalani studi, kami pun mulai menyusun rencana serta berangan angan untuk menyatukan tujuan bersama dan pada bulan Juni 2023 memantapkan hati untuk mempertemukan kedua keluarga
-//                       </p>
-//                     </div>
-//                   </div>
-//                   <div class="carousel-item">
-//                     <img
-//                       src="./assets/images/Galeri/BPP_5033.webp"
-//                       class="d-block w-100"
-//                       alt="..."
-//                       onclick="util.modal(this)"
-//                     />
-//                     <div class=" d-md-block">
-//                       <h5>2024</h5>
-//                       <p>
-//                         Alhamdulillah, pada tanggal 3 bulan 3, 2024, setelah kami menjalani hampir 10 tahun kisah cinta, kami akan melangsungkan pernikahan dan membagikan kebahagiaan pada semua rekan dan saudara yang dapat hadir maupun tidak di acara kami. mohon doa restu agar menjadi pasangan yang sakinah mawaddah warahmah. terimakasih ❤️
-//                       </p>
-//                     </div>
-//                   </div>
-//                 </div>
-//                 <button
-//                   class="carousel-control-prev"
-//                   type="button"
-//                   data-bs-target="#carouselExampleCaptions"
-//                   data-bs-slide="prev"
-//                 >
-//                   <span
-//                     class="carousel-control-prev-icon"
-//                     aria-hidden="true"
-//                   ></span>
-//                   <span class="visually-hidden">Previous</span>
-//                 </button>
-//                 <button
-//                   class="carousel-control-next"
-//                   type="button"
-//                   data-bs-target="#carouselExampleCaptions"
-//                   data-bs-slide="next"
-//                 >
-//                   <span
-//                     class="carousel-control-next-icon"
-//                     aria-hidden="true"
-//                   ></span>
-//                   <span class="visually-hidden">Next</span>
-//                 </button>
-//               </div>`;
+// <div
+//   id="carouselExampleCaptions"
+//   class="carousel slide"
+//   data-aos="fade-up"
+//   data-aos-duration="1500"
+//   data-bs-ride="carousel"
+// >
+//   <div class="carousel-indicators mb-0 mt5">
+//     <button
+//       type="button"
+//       data-bs-target="#carouselExampleCaptions"
+//       data-bs-slide-to="0"
+//       class="active"
+//       aria-current="true"
+//       aria-label="Slide 1"
+//     ></button>
+//     <button
+//       type="button"
+//       data-bs-target="#carouselExampleCaptions"
+//       data-bs-slide-to="1"
+//       aria-label="Slide 2"
+//     ></button>
+//     <button
+//       type="button"
+//       data-bs-target="#carouselExampleCaptions"
+//       data-bs-slide-to="2"
+//       aria-label="Slide 3"
+//     ></button>
+//     <button
+//       type="button"
+//       data-bs-target="#carouselExampleCaptions"
+//       data-bs-slide-to="3"
+//       aria-label="Slide 4"
+//     ></button>
+//     <button
+//       type="button"
+//       data-bs-target="#carouselExampleCaptions"
+//       data-bs-slide-to="4"
+//       aria-label="Slide 5"
+//     ></button>
+//   </div>
+//   <div class="carousel-inner rounded-4">
+//     <div class="carousel-item active">
+//       <img
+//         src="./assets/images/Galeri/BPP_5084.webp"
+//         class="d-block w-100"
+//         alt="..."
+//         onclick="util.modal(this)"
+//       />
+//       <div class=" d-md-block">
+//         <h5>2014</h5>
+//         <p>
+//           Kami pertama kali dipertemukan di SMA dan memulai kisah kami disana.
+//         </p>
+//       </div>
+//     </div>
+//     <div class="carousel-item">
+//       <img
+//         src="./assets/images/Galeri/BPP_5077.webp"
+//         class="d-block w-100"
+//         alt="..."
+//         onclick="util.modal(this)"
+//       />
+//       <div class=" d-md-block">
+//         <h5>2014-2016</h5>
+//         <p>
+//           Pada tanggal 16 Juni 2014 Kami berkomitmen dan menjalani masa putih abu abu bersama dengan suka dan duka yang menyertai.
+//         </p>
+//       </div>
+//     </div>
+//     <div class="carousel-item">
+//       <img
+//         src="./assets/images/Galeri/BPP_5033.webp"
+//         class="d-block w-100"
+//         alt="..."
+//         onclick="util.modal(this)"
+//       />
+//       <div class=" d-md-block">
+//         <h5>2016-2021</h5>
+//         <p>
+//           Kami menjalani studi diperguruan tinggi yang sama, banyak kenangan indah dan pelajaran yang dapat kami petik untuk memperkuat komitmen kami
+//         </p>
+//       </div>
+//     </div>
+//     <div class="carousel-item">
+//       <img
+//         src="./assets/images/Galeri/BPP_5031.webp"
+//         class="d-block w-100"
+//         alt="..."
+//         onclick="util.modal(this)"
+//       />
+//       <div class=" d-md-block">
+//         <h5>2021-2023</h5>
+//         <p>
+//           Setelah selesai menjalani studi, kami pun mulai menyusun rencana serta berangan angan untuk menyatukan tujuan bersama dan pada bulan Juni 2023 memantapkan hati untuk mempertemukan kedua keluarga
+//         </p>
+//       </div>
+//     </div>
+//     <div class="carousel-item">
+//       <img
+//         src="./assets/images/Galeri/BPP_5033.webp"
+//         class="d-block w-100"
+//         alt="..."
+//         onclick="util.modal(this)"
+//       />
+//       <div class=" d-md-block">
+//         <h5>2024</h5>
+//         <p>
+//           Alhamdulillah, pada tanggal 3 bulan 3, 2024, setelah kami menjalani hampir 10 tahun kisah cinta, kami akan melangsungkan pernikahan dan membagikan kebahagiaan pada semua rekan dan saudara yang dapat hadir maupun tidak di acara kami. mohon doa restu agar menjadi pasangan yang sakinah mawaddah warahmah. terimakasih ❤️
+//         </p>
+//       </div>
+//     </div>
+//   </div>
+//   <button
+//     class="carousel-control-prev"
+//     type="button"
+//     data-bs-target="#carouselExampleCaptions"
+//     data-bs-slide="prev"
+//   >
+//     <span
+//       class="carousel-control-prev-icon"
+//       aria-hidden="true"
+//     ></span>
+//     <span class="visually-hidden">Previous</span>
+//   </button>
+//   <button
+//     class="carousel-control-next"
+//     type="button"
+//     data-bs-target="#carouselExampleCaptions"
+//     data-bs-slide="next"
+//   >
+//     <span
+//       class="carousel-control-next-icon"
+//       aria-hidden="true"
+//     ></span>
+//     <span class="visually-hidden">Next</span>
+//   </button>
+// </div>`;
 const renderCurrent = () => {
   const text = document.querySelector(`.text-cerita-galeri`);
   if (text.innerHTML) {
